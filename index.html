@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+               
+    <title>Tennis Point Tracker</title>           
+    </head>
+    <body>
+      <section>
+        <div class ="scoreboard">
+            <div class="board-wrapper">
+                <h3>NL</h3>
+                <h2 id="home-score">0</h2>
+                <div>   
+                    <button class="btn" onclick="increaseHomeScore15()"> 15</button>
+                    <button class="btn" onclick="increaseHomeScore30()"> 30</button>
+                    <button class="btn" onclick="increaseHomeScore40()"> 40</button>
+                 <div>   
+                    <button class="btn" onclick="increaseHomeScoreAd()"> AD</button>
+                    <button class="btn" onclick="increaseHomeScoreGame()"> Game</button>
+                </div>
+                </div>
+            </div>
+            <div class="board-wrapper">
+                <h3>SPAIN</h3>
+                <h2 id="guest-score">0</h2>
+            <div>
+                <button class="btn" onclick="increaseGuestScore15()"> 15</button>
+                <button class="btn" onclick="increaseGuestScore30()"> 30</button>
+                <button class="btn" onclick="increaseGuestScore40()"> 40</button>
+             <div>    
+                <button class="btn" onclick="increaseGuestScoreAD()"> AD</button>
+                <button class="btn" onclick="increaseGuestScoreGame()"> Game</button>
+             </div>  
+            </div>
+            </section>
+            <hr />
+            <section>
+            <div class="scoreboard">
+              <div class ="board-wrapper">
+                <h2> Set Score </h2>    
+                <h2 id="set-score-home">0</h2>
+              <div> 
+                <button class="btn" onclick="addGameHome()">+1</button>
+              </div>
+              </div>
+              <div>
+                <button class="btn-new-set" onclick="resetScoreHome()"> New Set</button>
+              </div>
+              <div class="board-wrapper">
+                <h2> Set Score </h2>    
+                <h2 id="set-score-guest">0</h2>
+              <div>    
+                <button class="btn" onclick="addGameGuest()">+1</button>
+              </div>
+              </div>
+              </div>
+              <section>
+            </div>  
+          <script src="index.js"></script>
+            </body>
+</html>

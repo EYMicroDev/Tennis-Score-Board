@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    color: #FCD34D; 
+    font-family: 'verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+    height: 100%;
+             
+}
+.scoreboard {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    justify-content: space-around;
+    text-align: center;
+    background-color: #1B244A; 
+    background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWNuNnk4ejMxOTY0NDRkaDFub2U0amN2Y2o3NW0wdHM3dHh2d2MxMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/nFsaaVCUcmhIJM5CEl/giphy.gif');
+    background-size: cover;
+    color: #FCD34D;
+     
+}
+
+
+#home-score {
+    padding-top: 15px;
+    background-color: black;
+    width: 120px;
+    margin: 20px; 
+    font-size: 90px; 
+    font-family: 'Cursed Timer UliL', sans-serif;
+    
+    }
+#guest-score {
+    padding-top: 15px;
+    background-color: black;
+    width: 120px;
+    margin: 20px; 
+    font-size: 90px; 
+    font-family: 'Cursed Timer UliL', sans-serif;
+}
+#set-score-home {
+     padding-top: 15px;
+    background-color: black;
+    color: #FCD34D
+    width: 90px;
+    margin: 20px; 
+    font-size: 50px; 
+    font-family: 'Cursed Timer UliL', sans-serif;
+    }
+#set-score-guest {
+    padding-top: 15px;
+    color: #FCD34D;
+    background-color: black;
+    width: 90px;
+    margin: 20px; 
+    font-size: 50px; 
+    font-family: 'Cursed Timer UliL', sans-serif;
+    }
+h3 {
+     font-size: 40px;
+     color: orangered;
+     background: white;
+     border-radius: 20px
+    
+}
+.btn {
+     font-family: 'Cursed Timer UliL', sans-serif;
+     margin: 4px 3px;
+     background: #064E3B;
+     color:white;
+     border-color: #9AABD8;
+     border-radius: 5px;
+     padding: 8px 10px 8px 10px; 
+     cursor: pointer;
+}
+
+.btn:hover {
+    border-color: #406cda;
+     
+}
+.btn-new-set {
+     font-family: 'Cursed Timer UliL', sans-serif;
+     color:white;
+     border-color: #9AABD8;
+     border-radius: 5px;
+     padding: 8px 10px 8px 10px; 
+     cursor: pointer;
+     background: #064E3B;
+     margin: 50px;
+}
+.btn-new-set:hover {
+    border-color: #406cda;
+    }
+hr {
+border: none;
+}
